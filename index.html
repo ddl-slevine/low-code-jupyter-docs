@@ -240,8 +240,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-it-is" class="md-nav__link">
-    What it is?
+  <a href="#what-it-this" class="md-nav__link">
+    What it this?
   </a>
   
 </li>
@@ -265,7 +265,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" data-md-state="indeterminate" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -288,8 +288,48 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/loading-data/" class="md-nav__link">
-        Loading data
+      <a href="getting-started/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" data-md-state="indeterminate" type="checkbox" id="__nav_2_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Loading data
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Loading data" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Loading data
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="getting-started/loading-data/csv/" class="md-nav__link">
+        CSV to Pandas
       </a>
     </li>
   
@@ -302,9 +342,110 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/transform/" class="md-nav__link">
-        Transforming data
+      <a href="getting-started/loading-data/snowflake/" class="md-nav__link">
+        Snowflake to Pandas
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" data-md-state="indeterminate" type="checkbox" id="__nav_2_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Transforming data
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Transforming data" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Transforming data
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="getting-started/transform/" class="md-nav__link">
+        Filter NaN values
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" data-md-state="indeterminate" type="checkbox" id="__nav_2_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Visualizing data
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Visualizing data" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Visualizing data
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="getting-started/viz/scatter/" class="md-nav__link">
+        Scatter plot with Plotly
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -358,8 +499,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-it-is" class="md-nav__link">
-    What it is?
+  <a href="#what-it-this" class="md-nav__link">
+    What it this?
   </a>
   
 </li>
@@ -383,8 +524,8 @@
 
 
 <h1 id="introduction">Introduction</h1>
-<h2 id="what-it-is">What it is?</h2>
-<p>Domino Low code assistant is a tool for the Jupyter notebook to insert code snippets into notebook cells. Some actions, such as opening a file, or connecting to a database are more easily done using a graphical UI than in code. </p>
+<h2 id="what-it-this">What it this?</h2>
+<p>Domino Low Code Assistant (LCA) accelerates common routines in Jupyter notebook with a GUI assistant (such as importing, munging, and visualizing data). Every interaction with the LCA generates the underlying Python code that is being executed, helping beginning practitioners to learn and edit essential Python data science code.</p>
 <!-- ### Short demo -->
 
 <!-- This video shows how to
@@ -399,19 +540,21 @@
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p><video controls autoplay>
-  <source src="videos/intro.webm" type="video/webm">
+  <source src="https://user-images.githubusercontent.com/1765949/166242724-f7f31c93-8dd1-46e4-8c82-611a63800fbd.mp4" type="video/mp4">
 </video></p>
 </div>
 <div class="tabbed-block">
-<p>Soon</p>
+<p><video controls>
+  <source src="https://user-images.githubusercontent.com/1765949/166242864-91564e62-6d2d-4872-8bb1-e2b566876320.mp4" type="video/mp4">
+</video></p>
 </div>
 </div>
 </div>
 <p><a class="md-button md-button--primary" href="getting-started/loading-data/">Get started</a>
 <a class="md-button md-button--secondary" href="install/">Installation</a></p>
 <div class="admonition warning">
-<p class="admonition-title">Jupyter lab not yet supported</p>
-<p>Currently, the code assistant only works in the (classical) Jupyter notebook. Jupyter lab is not yet supported.</p>
+<p class="admonition-title">JupyterLab not yet supported</p>
+<p>Currently, the code assistant only works in the (classical) Jupyter notebook. JupyterLab is not yet supported.</p>
 </div>
 
               
@@ -427,13 +570,13 @@
       
       
         
-        <a href="getting-started/loading-data/" class="md-footer__link md-footer__link--next" aria-label="Next: Loading data" rel="next">
+        <a href="getting-started/" class="md-footer__link md-footer__link--next" aria-label="Next: Overview" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Loading data
+              Overview
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -463,7 +606,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["content.tabs.link"], "search": "assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["content.tabs.link", "navigation.expand"], "search": "assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="assets/javascripts/bundle.748e2769.min.js"></script>
