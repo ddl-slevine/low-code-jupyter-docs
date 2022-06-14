@@ -2,47 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://dominolowcode.github.io/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dominolowcode.github.io/install/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dominolowcode.github.io/getting-started/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dominolowcode.github.io/getting-started/transform/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-06-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dominolowcode.github.io/getting-started/app/create/</loc>
+         <lastmod>2022-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dominolowcode.github.io/getting-started/loading-data/csv/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dominolowcode.github.io/getting-started/loading-data/redshift/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dominolowcode.github.io/getting-started/loading-data/snowflake/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dominolowcode.github.io/getting-started/loading-data/sql/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dominolowcode.github.io/getting-started/viz/scatter/</loc>
-         <lastmod>2022-05-20</lastmod>
+         <lastmod>2022-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
